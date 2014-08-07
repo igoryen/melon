@@ -14,7 +14,7 @@ public class WService {
     final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
     final String DB_URL = "jdbc:mysql://localhost/db_name";
     final String USER = "yggy";
-    final String PASS = "xxx";
+    final String PASS = "aaaa";
     
     Connection conn = null;
     PreparedStatement stmt = null;

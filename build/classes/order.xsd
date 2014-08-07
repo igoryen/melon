@@ -7,7 +7,7 @@
   targetNamespace="http://www.example.org/order"
   xmlns="http://www.w3.org/2001/XMLSchema"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="tbl_customer_orders">
+  <xsd:element name="order">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element

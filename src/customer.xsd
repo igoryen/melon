@@ -7,7 +7,7 @@
   targetNamespace="http://www.example.org/customer"
   jxb:version="2.0"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="tbl_customers">
+  <xsd:element name="customer">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:element
