@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML 2014 Designer Edition (Trial) 12.2.3.5240 (http://www.liquid-technologies.com) -->
+<xsd:schema
+  xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+  xmlns:tns="http://www.example.org/customer"
+  elementFormDefault="qualified"
+  targetNamespace="http://www.example.org/customer"
+  jxb:version="2.0"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="tbl_customers">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element
+          name="cst_customer_id"
+          type="xsd:int" />
+        <xsd:element
+          name="cst_first_name"
+          type="xsd:string" />
+        <xsd:element
+          name="cst_middle_name"
+          type="xsd:string" />
+        <xsd:element
+          name="cst_last_name"
+          type="xsd:string" />
+        <xsd:element
+          name="cst_customer_phone"
+          type="xsd:string" />
+        <xsd:element
+          name="cst_customer_email"
+          type="xsd:string" />
+        <xsd:element
+          name="cst_other_customer_details"
+          type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid XML 2014 Designer Edition (Trial) 12.2.3.5240 (http://www.liquid-technologies.com) -->
+<xsd:schema
+  xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+  xmlns:tns="http://www.example.org/order"
+  elementFormDefault="qualified"
+  targetNamespace="http://www.example.org/order"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="tbl_customer_orders">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element
+          name="cor_order_id"
+          type="int" />
+        <xsd:element
+          name="cor_customer_id"
+          type="string" />
+        <xsd:element
+          name="cor_customer_payment_method_id"
+          type="string" />
+        <xsd:element
+          name="cor_order_status_code"
+          type="string" />
+        <xsd:element
+          name="cor_date_order_paid"
+          type="date" />
+        <xsd:element
+          name="cor_der_total_order_price"
+          type="decimal" />
+        <xsd:element
+          name="cor_other_order_details"
+          type="string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
